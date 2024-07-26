@@ -1,0 +1,54 @@
+/* ====================
+- Newsletter
+==================== */
+
+#newsletter h2 {
+}
+#newsletter p {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+#newsletter small {
+  color: red;
+}
+
+.row {
+  display: flex !important;
+  margin: auto !important;
+  flex-wrap: wrap !important;
+  justify-content: space-between !important; 
+} 
+
+/* ====================
+  - Footer section
+  ==================== */
+
+
+/* ====================
+    - Media queries
+    
+      xs   <  576px
+      sm   ≥  576px
+      md   ≥  768px
+      lg   ≥  992px
+      xl   ≥  1200px
+      xxl  ≥  1400px
+    ==================== */
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 768px) {
+  .section-text-combo p {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 18px;
+  }
+  .section-text-combo p {
+    width: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+<article class="product">
+  <figure>
+    <img [src]="'http://3.19.57.90:3000/uploads/' + product.image" alt="" />
+    <figcaption>
+      <p>{{ product.name }} {{ product.color }}</p>
+      <p>{{ product.description }}</p>
+      <p>{{ product.price | currency }}</p>
+    </figcaption>
+  </figure>
+  <div class="actions">
+    <button (click)="deleteItem(product._id)">Borrar</button>
+    <form action="">
+      <button type="button" class="decrement" (click)="decrement(product._id)">
+        -
+      </button>
+      <input
+        type="number"
+        name="quantity"
+        id="quantity"
+        [formControl]="productQuantity"
+      />
+      <button type="button" class="increment" (click)="increment(product._id)">
+        +
+      </button>
+    </form>
+  </div>
+</article>

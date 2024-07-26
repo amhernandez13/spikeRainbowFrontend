@@ -1,0 +1,35 @@
+<!-- <article class="card">
+  <div class="col-12 col-sm-6 col-lg-3">
+    <div class="product">
+      <figure>
+        <img [src]="imagen" [alt]="titulo" />
+        <figcaption>
+          <span class="featured">available</span>
+          <h3>{{ titulo }}</h3>
+          <p>$ {{ precio }}</p>
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</article> -->
+
+<span class="card" style="width: 18rem">
+  <figure>
+    <a [routerLink]="['/item-description/', producto._id]">
+      <img
+        [src]="'http://3.19.57.90:3000/uploads/' + producto.image"
+        [alt]="producto.name"
+      />
+    </a>
+    <div class="card-body">
+      <h3>{{ producto.name }}</h3>
+      <p>{{ producto.description }}</p>
+      <p>{{ producto.size }}</p>
+      <p>{{ producto.price | currency }}</p>
+
+      <button href="#" class="btn btn-primary" (click)="addToCart(producto)">
+        Añadir al carrito
+      </button>
+    </div>
+  </figure>
+</span>

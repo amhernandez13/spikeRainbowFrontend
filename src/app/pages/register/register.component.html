@@ -1,0 +1,36 @@
+<app-nav />
+<main>
+  <form [formGroup]="registerForm" (ngSubmit)="onSubmit($event)">
+    <section class="mb-3">
+      <label>Nombre</label>
+      <input type="text" class="form-control" formControlName="name" />
+    </section>
+    <section class="mb-3">
+      <label>Apellido</label>
+      <input type="text" class="form-control" formControlName="lastname" />
+    </section>
+    <section class="mb-3">
+      <label>Número de identificación</label>
+      <input
+        type="number"
+        class="form-control"
+        formControlName="identification"
+      />
+    </section>
+    <section class="mb-3">
+      <label>Email</label>
+      <input type="text" class="form-control" formControlName="email" />
+    </section>
+    <section class="mb-3">
+      <label>Número de contacto</label>
+      <input type="number" class="form-control" formControlName="movil" />
+    </section>
+    <section class="mb-3">
+      <label>Password</label>
+      <input type="password" class="form-control" formControlName="password" />
+
+      <input type="submit" value="Enviar" class="boton" >
+    </section>
+  </form>
+</main>
+<app-footer />

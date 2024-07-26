@@ -1,0 +1,73 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Footlight MT Light:ital,wght@0,400..700;1,400..700&family=Quicksand:wght@300..700&display=swap&family=Times New Roman"); */
+
+.background {
+  background-image: url("../../../assets/img-main/fondoVertigoRojo.jpg.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+  color: white;
+  overflow-x: hidden;
+}
+
+.menu {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100vw;
+  text-align: left;
+  position: fixed;
+  color: white;
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.item {
+  margin-right: 15px;
+  padding: 10px;
+  font-family: Times New Roman;
+}
+
+.titul-inco {
+  font-family: "Footlight MT Light", serif;
+  color: white;
+  font-size: 50px;
+}
+
+.img-logo {
+  height: 100px;
+}
+
+.first {
+  margin: 0 auto;
+  display: flex;
+  margin-left: 200px;
+  margin-top: 450px;
+  scale: 1.5;
+}
+
+.models-section {
+  width: 100vw;
+  height: 50vh;
+}
+
+.btn-model {
+  all: unset;
+  font-size: 20px;
+  font-family: "Footlight MT Light", serif;
+  color: white;
+  margin-left: 20px;
+}
+
+.btn-model:hover {
+  text-decoration: underline;
+}

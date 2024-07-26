@@ -1,0 +1,25 @@
+main {
+  
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#item-general-view {
+    display: flex;
+   
+}
+
+h1 {
+    padding: 25px;
+}
+
+img {
+    margin: 25px;
+    
+}
+
+#item-detail {
+    padding: 10px;
+    
+}
