@@ -1,28 +1,26 @@
-footer {
-    background-color: #010408;
-    color: white;
-    height: 30vh;
+footer div {
+    background-color: #553317;
+    height: 175px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
-  
-  footer ul {
-    list-style-type: none;
-    padding: 0;
+
+#social-media-button-container {
+  background-color: #FAA761 ;
+  height: 50px;
+  margin-right: 35px;
+  border-radius: 10px;
+}
+
+ button {
+    margin: 10px;
+    background: none;
+    border: none;
+    text-decoration: none;
+    color: none;
   }
-  
-  footer ul li {
-    color: #888;
-    font-size: 0.9rem;
+
+  i {
+    font-size:xx-large;
   }
-  
-  footer ul li.list-title {
-    padding-bottom: 1rem;
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 0.2rem;
-  }
-  
-  footer .copyright {
-    font-size: 0.9rem;
-    color: #888;
-  }
-  
